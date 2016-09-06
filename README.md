@@ -9,10 +9,10 @@ Setting up the Project
 
 Activator Commands
 ------------------
-To Compile Project - type `activator compile`
-To Run Project - type `activator run` for hot reload use `activator ~run`
-To Debug Project - type `activator -jvm-debug 9999 run` (Add `remote host` in eclipse/intellij debug config with port 9999)
-App runs on port 9000 (browser load time will be slow in dev mode)
+- To Compile Project - type `activator compile`
+- To Run Project - type `activator run` for hot reload use `activator ~run`
+- To Debug Project - type `activator -jvm-debug 9999 run` (Add `remote host` in eclipse/intellij debug config with port 9999)
+- App runs on port 9000 (browser load time will be slow in dev mode)
 
 This is your new Play application
 =================================
