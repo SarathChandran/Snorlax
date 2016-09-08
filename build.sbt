@@ -9,5 +9,8 @@ scalaVersion := "2.11.8"
 libraryDependencies ++= Seq(
   javaJdbc,
   cache,
-  javaWs
+  javaWs,
+  "com.google.maps" % "google-maps-services" % "0.1.15",
+  "com.maxmind.geoip2" % "geoip2" % "2.8.0-rc1",
+  "com.fasterxml.jackson.module" % "jackson-module-scala_2.11" % "2.8.2"
 )

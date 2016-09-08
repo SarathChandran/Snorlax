@@ -1,10 +1,10 @@
 package controllers;
 
 import javax.inject.*;
-import play.*;
+
 import play.mvc.*;
 
-import services.Counter;
+import services.java.Counter;
 
 /**
  * This controller demonstrates how to use dependency injection to
