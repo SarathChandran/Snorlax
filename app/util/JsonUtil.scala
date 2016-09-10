@@ -1,4 +1,4 @@
-package services.scala
+package util
 
 import java.io.StringWriter
 

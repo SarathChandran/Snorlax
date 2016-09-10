@@ -1,7 +1,8 @@
-package services.scala
+package util
 
 import java.io.File
 
+import com.google.maps.GeoApiContext
 import play.Play
 
 /**
@@ -13,4 +14,5 @@ object AppConstants {
   val HOLIDAY_API_KEY: String = ""
   val GOOGLE_MAPS_API_KEY: String = ""
   val DISTANCE_PER_DAY = 200
+  val googleContext = new GeoApiContext().setApiKey(GOOGLE_MAPS_API_KEY)
 }
