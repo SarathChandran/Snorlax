@@ -3,6 +3,7 @@ package util
 import java.io.File
 
 import com.google.maps.GeoApiContext
+import com.google.maps.model.PlaceType
 import play.Play
 
 /**
@@ -15,4 +16,6 @@ object AppConstants {
   val GOOGLE_MAPS_API_KEY: String = ""
   val DISTANCE_PER_DAY = 200
   val googleContext = new GeoApiContext().setApiKey(GOOGLE_MAPS_API_KEY)
+  import PlaceType._
+  val attactionTypes = Seq(AMUSEMENT_PARK,AQUARIUM, ART_GALLERY, CAMPGROUND, CASINO, CHURCH, HINDU_TEMPLE, MUSEUM, NIGHT_CLUB, PARK, PLACE_OF_WORSHIP, SHOPPING_MALL, ZOO)
 }

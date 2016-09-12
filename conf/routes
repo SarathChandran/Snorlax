@@ -11,7 +11,9 @@ GET     /holidays                   controllers.PlanTripController.listHolidays
 POST    /askSuggestion              controllers.PlanTripController.askSuggestion
 GET     /sourceCity                 controllers.PlanTripController.getSourceCity
 POST    /getNearbyPlaces            controllers.PlanTripController.getNearbyPlaces
-POST    /getDirections               controllers.PlanTripController.getDirections
+POST    /getDirections              controllers.PlanTripController.getDirections
+GET     /getPlaceDetails/:placeId   controllers.PlanTripController.getPlaceDetails(placeId: String)
+POST     /getNearbyAttractions      controllers.PlanTripController.getNearbyAttractions
 
 
 # Map static resources from the /public folder to the /assets URL path
